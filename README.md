@@ -4,5 +4,7 @@ In diesem Repository finden sich die Unterlagen für das Praktikum des Wahlpflic
 
 ## Installation 
 
-Die Anleitung zur Installation der benötigten Voraussetzungen finden sie in dem Rechercheauftrag des WPF KI
+Die Anleitung zur Installation der benötigten Voraussetzungen finden sie in dem Rechercheauftrag des WPF KI.
+
+
 
