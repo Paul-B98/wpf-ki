@@ -31,6 +31,18 @@ git checkout -b lecture/research-assignment
 
 Für das Praktikum wird auf Python mit den Werkzeugen Jupyter Lab und Anaconda gesetzt. Bitte installieren sie sich diese, um Aufgabe 2 zu erledigen und sich auf Das Praktikum vorzubereiten. Im Folgenden ist eine [Anleitung](https://docs.anaconda.com/free/anaconda/install/) zur Installation verlink, welche intuitiv gestaltet ist. Bei Fragen oder Problemen wenden sie sich gerne an die Dozenten. Für spezielle Details zu den jeweiligen Betriebssystemen gibt es auch für [Windows](https://docs.anaconda.com/free/anaconda/install/windows/), [Mac](https://docs.anaconda.com/free/anaconda/install/mac-os/) und [Linux](https://docs.anaconda.com/free/anaconda/install/linux/) jeweils einzelne Anleitungen.
 
+Im [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html) finden sie eine Anleitung wie man Anaconda verwenden kann. Mit den folgenden Befehlen können sie die Installation von Anacoda überprüfen und eine eigene Umgebung für das Praktikum erstellen: 
+```bash
+# Prüft die Installation
+conda info
+
+# Erstellt eine Umgebung
+conda create --name <Name der Umgebung>
+
+# Aktiviert die erstellte Umgebung
+conda activate <Name der Umgebung>
+```
+
 ---
 ## Aufgabe 2: Python Grundlagen
 
