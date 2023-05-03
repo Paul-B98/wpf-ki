@@ -46,3 +46,9 @@ conda activate <Name der Umgebung>
 ---
 ## Aufgabe 2: Python Grundlagen
 
+Nachdem sie das Projekt sowie Anaconda heruntergeladen und installiert haben können sie sich nun in die Grundlagen der Programmiersprache Python einarbeiten. Hierzu finde sie in dem Verzeichnis `ki-i/rechercheauftrag` Jupyter Notebooks. Um diese zu öfnen starten sie Jupyter lab mittels dem Folgenden Befehl:
+```bash
+jupyter-lab
+```
+
+Anschließend navigieren sie mittels des Datei Explorers zu den Jupyter Notebooks (`*.ipynb`) in dem Verzeichnis Rechercheauftrag und öffnen diese. Starten sie Dabei mit dem Grundlagen Notebook und machen sie im Anschluss mit der dazugehörigen Übung weiter.
