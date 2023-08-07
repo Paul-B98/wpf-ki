@@ -1,2 +1,10 @@
 jupyterlab
+
+
+# Data
 numpy
+pandas
+
+# Visual
+matplotlib
+tabulate
