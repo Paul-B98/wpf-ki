@@ -1,10 +1,14 @@
 jupyterlab
-
+ydata-profiling
+ipywidgets
 
 # Data
 numpy
 pandas
+scipy
 
 # Visual
 matplotlib
 tabulate
+pivottablejs
+
