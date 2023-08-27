@@ -12,3 +12,6 @@ matplotlib
 tabulate
 pivottablejs
 
+# ML
+scikit-learn
+
