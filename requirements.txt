@@ -15,4 +15,5 @@ seaborn
 
 # ML
 scikit-learn
+tensorflow
 
