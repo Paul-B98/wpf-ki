@@ -12,6 +12,7 @@ matplotlib
 tabulate
 pivottablejs
 seaborn
+pydot
 
 # ML
 scikit-learn
