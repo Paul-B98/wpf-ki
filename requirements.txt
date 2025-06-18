@@ -21,5 +21,5 @@ keras-tuner==1.4.7
 datasets==2.21.0
 transformers==4.50.0
 seqeval==1.2.2
-torch==2.6.0
+torch==2.7.1
 bertviz==1.4.0
