@@ -5,11 +5,23 @@
 
 version: 2
 updates:
- - package-ecosystem: "github-actions" 
-    directory: "/" 
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
       interval: "daily"
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "daily"
+  - package-ecosystem: "uv"
+    directory: "/"
+    schedule:
+      interval: "weekly"
