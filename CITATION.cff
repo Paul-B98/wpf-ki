@@ -9,11 +9,11 @@ type: software
 version: 1.0.0
 date-released: 2025-01-01
 license: MIT
-url: https://github.com/Paul-B98/wpf-ki
-repository-code: https://github.com/Paul-B98/wpf-ki
+url: https://github.com/Paul-B98/lecture-ai-basics
+repository-code: https://github.com/Paul-B98/lecture-ai-basics
 identifiers:
 - type: url
-  value: https://github.com/Paul-B98/wpf-ki
+  value: https://github.com/Paul-B98/lecture-ai-basics
 keywords:
 - python
 - artificial intelligence

@@ -10,7 +10,7 @@ Use the included dev container to automatically install all the necessary dev to
 
 1. **Clone the repository:**
     ```bash
-    git clone git+https://github.com/Paul-B98/wpf-ki
+    git clone git+https://github.com/Paul-B98/lecture-ai-basics
     cd pyAKI
     ```
 
