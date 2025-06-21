@@ -22,4 +22,4 @@ datasets==2.21.0
 transformers==4.50.0
 seqeval==1.2.2
 torch==2.7.1
-bertviz==1.4.0
+bertviz==1.4.1
