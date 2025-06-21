@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: If you use this software, please cite it using these metadata.
 title: "Lecture notes on ai and machine learning with python"
 authors:
-- family-names: "Paul"
-  given-names: "Brauckmann"
+- family-names: "Brauckmann"
+  given-names: "Paul"
   orcid: "https://orcid.org/0009-0002-8163-0989"
 type: software
 version: 1.0.0
