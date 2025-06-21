@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Python Project Template"
+authors:
+- family-names: "Paul"
+  given-names: "B98"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+type: software
+version: 0.0.1
+date-released: 2025-01-01
+license: MIT
+url: https://github.com/Paul-B98/python-project-template
+repository-code: https://github.com/Paul-B98/python-project-template
+identifiers:
+- type: url
+  value: https://github.com/Paul-B98/python-project-template
+keywords:
+- python
+- development
+- github template
+- devcontainer

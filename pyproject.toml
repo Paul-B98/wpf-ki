@@ -1,0 +1,71 @@
+[project]
+name = "project_name"  # TODO
+description = "Template for python project"  # TODO
+version = "0.0.1"
+license = "MIT"  # TODO
+authors = [
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+]
+maintainers = [
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+]
+readme = "README.md"
+keywords = ["Python Lib"]  # TODO
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.13"
+
+[project.urls]
+homepage = "https://github.com/Paul-B98/python-project-template"  # TODO
+repository = "https://github.com/Paul-B98/python-project-template"  # TODO
+changelog = "https://github.com/Paul-B98/python-project-template/releases"  # TODO
+issues = "https://github.com/Paul-B98/python-project-template/issues"  # TODO
+documentation = "https://github.com/Paul-B98/python-project-template/wiki"  # TODO
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "mypy>=1.16.0",
+    "pytest>=8.4.0",
+    "pytest-cov>=6.2.1",
+    "ruff>=0.11.13",
+]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-gen-files>=0.5.0",
+    "mkdocs-literate-nav>=0.6.2",
+    "mkdocs-macros-plugin>=1.3.7",
+    "mkdocs-material>=9.6.14",
+    "mkdocs-section-index>=0.3.10",
+    "mkdocstrings-python>=1.16.12",
+    "pymdown-extensions>=10.15",
+]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "*_test.py"]
+filterwarnings = ["ignore::DeprecationWarning"]
+pythonpath = ["src"]
+addopts = [
+    "--cov",
+    "--cov-branch",
+    "--cov=src",
+    "--cov-report=xml",
+    "--import-mode=importlib",
+]
+
+[tool.mypy]
+python_version = "3.13"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+strict_optional = true
+exclude = [
+    "docs/*",
+]
