@@ -1,0 +1,44 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the issue thoroughly and include steps to reproduce.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell us what happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide clear steps so we can replicate the issue.
+      placeholder: |
+        1. Go to Settings
+        2. Click "Save"
+        3. Observe crash
+    validations:
+        required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Screenshots (if any)
+  - type: input
+    id: environment
+    attributes:
+      label: Environment (OS, browser, version, etc.)

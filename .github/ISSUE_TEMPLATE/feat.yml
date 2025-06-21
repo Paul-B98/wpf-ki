@@ -1,0 +1,29 @@
+name: Feature Request
+description: Suggest a new feature or improvement.
+title: "[FEAT]: "
+labels: ["enhancement"]
+projects: []
+assignees: []
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case / Problem
+      description: Explain the need or problem the feature solves.
+      placeholder: |
+        It's hard to use the app at night; a dark mode would reduce eye strain.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: If you have ideas on how this could be implemented, share them here.
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
