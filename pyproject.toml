@@ -1,5 +1,5 @@
 [project]
-name = "ai_lecture"
+name = "ai_basics"
 description = "Lecture notes on ai and machine learning with python"
 version = "1.0.0"
 license = "MIT"
