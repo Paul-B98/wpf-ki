@@ -4,14 +4,14 @@ In dem folgenden Rechercheauftrag schaffen sie die Grundlagen für das Modul, in
 
 ## Aufgabe 1: Installation
 
-### Aufgabe 1a: Installation und nutzten von Git 
+### Aufgabe 1a: Installation und nutzten von Git
 
 Um die Inhalte dieses Projektes zu nutzten empfiehlt es sich die Versionsverwaltungssoftware Git zu verwenden. Dadurch können sie Änderungen einfach lokal einspielen. Git können sie als Terminal Anwendung [hier](https://git-scm.com/downloads) herunterladen. Zusätzlich dazu lassen sich Git aber auch [grafische Anwendung](https://git-scm.com/downloads/guis) installieren.
 
 Nachdem sie Git installiert haben können sie es nutzten, um wie Folgt das Projekt herunterzuladen:
 ```bash
 # Über HTTPS
-git clone https://github.com/Paul-B98/wpf-ki.git
+git clone https://github.com/Paul-B98/lecture-ai-basics.git
 
 # Oder über SSH
 git clone git@github.com:Paul-B98/wpf-ki.git
@@ -31,7 +31,7 @@ git checkout -b lecture/research-assignment
 
 Für das Praktikum wird auf Python mit den Werkzeugen Jupyter Lab und Anaconda gesetzt. Bitte installieren sie sich diese, um Aufgabe 2 zu erledigen und sich auf Das Praktikum vorzubereiten. Im Folgenden ist eine [Anleitung](https://docs.anaconda.com/free/anaconda/install/) zur Installation verlink, welche intuitiv gestaltet ist. Bei Fragen oder Problemen wenden sie sich gerne an die Dozenten. Für spezielle Details zu den jeweiligen Betriebssystemen gibt es auch für [Windows](https://docs.anaconda.com/free/anaconda/install/windows/), [Mac](https://docs.anaconda.com/free/anaconda/install/mac-os/) und [Linux](https://docs.anaconda.com/free/anaconda/install/linux/) jeweils einzelne Anleitungen.
 
-Im [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html) finden sie eine Anleitung wie man Anaconda verwenden kann. Mit den folgenden Befehlen können sie die Installation von Anacoda überprüfen und eine eigene Umgebung für das Praktikum erstellen: 
+Im [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html) finden sie eine Anleitung wie man Anaconda verwenden kann. Mit den folgenden Befehlen können sie die Installation von Anacoda überprüfen und eine eigene Umgebung für das Praktikum erstellen:
 ```bash
 # Prüft die Installation
 conda info

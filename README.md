@@ -1,19 +1,55 @@
-# Wahlpflichtfach Künstliche Intelligenz I und II
+# Lecture: AI I - Bascis
 
-In diesem Projekt finden sich die Unterlagen für das Praktikum des Wahlpflichtfaches (WPF) Künstliche Intelligenz I (KI I) und II (KI II).
+Course content for the elective Artificial Intelligence I, covering foundational AI concepts and applied exercises.
 
-## Installation 
+## Getting Started
 
-Die Anleitung zur Installation der benötigten Voraussetzungen finden sie in dem [Rechercheauftrag](./ki-i/rechercheauftrag/README.md) des WPF KI.
+> [!NOTE]
+> Use the included dev container to automatically install all the necessary dev tools and dependencies.
 
-## Intelligenz I
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/Paul-B98/python-project-template.git
+    cd python-project-template
+    ```
 
-Das WPF [KI I](./ki-i/README.md) vermittelt die Grundlagen des maschinellen Lernens abgesehen von neuronalen Netzen.
+2. **Open the project in Visual Studio Code:**
+    ```sh
+    code .
+    ```
 
-## Intelligenz II
+3. **Reopen in container:**
+    - Press `F1` to open the command palette.
+    - Type `Remote-Containers: Reopen in Container` and select it.
+    - VS Code will build the Docker container defined in the `.devcontainer` folder and open the project inside the container.
 
-Das WPF [KI II](./ki-ii/README.md) vermittelt die Grundlagen und weiterführende Themen im Bereich der neuronalen Netze.
+## Contributing
 
-## Dokumentation
+### Conventional Commits
 
-In der [Dokumentation](./docs/README.md) finden sich Inhalte zum Mitarbeiten an diesem Projekt
+We follow the [Conventional Commits]() specification to maintain a consistent commit history and enable automated tooling for releases and changelogs.
+
+#### Commit message format:
+```
+Commit Message Format
+
+<type>(optional scope): <short summary>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+#### Common Types
+
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation only changes
+- `style`: Changes that do not affect the meaning of the code (formatting, missing semicolons, etc.)
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `perf`: A code change that improves performance
+- `test`: Adding or correcting tests
+- `chore`: Changes to the build process or auxiliary tools
+- `infra`: infrastructure ch
+
+## Documentation

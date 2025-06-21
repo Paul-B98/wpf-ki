@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  ai-lecture:
-    container_name: ai-lecture
+  lecture-ai-basics:
+    container_name: lecture-ai-basics
     init: true
     build:
       context: ..
