@@ -1,21 +1,20 @@
 cff-version: 1.2.0
 message: If you use this software, please cite it using these metadata.
-title: "Python Project Template"
+title: "Lecture notes on ai and machine learning with python"
 authors:
 - family-names: "Paul"
-  given-names: "B98"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+  given-names: "Brauckmann"
+  orcid: "https://orcid.org/0009-0002-8163-0989"
 type: software
-version: 0.0.1
+version: 1.0.0
 date-released: 2025-01-01
 license: MIT
-url: https://github.com/Paul-B98/python-project-template
-repository-code: https://github.com/Paul-B98/python-project-template
+url: https://github.com/Paul-B98/wpf-ki
+repository-code: https://github.com/Paul-B98/wpf-ki
 identifiers:
 - type: url
-  value: https://github.com/Paul-B98/python-project-template
+  value: https://github.com/Paul-B98/wpf-ki
 keywords:
 - python
-- development
-- github template
-- devcontainer
+- artificial intelligence
+- machine learning
