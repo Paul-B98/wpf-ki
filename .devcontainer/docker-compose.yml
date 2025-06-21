@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ai-lecture:  # TODO change this to your project name
+    container_name: ai-lecture  # TODO change this to your project name
+    init: true
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    environment:
+      - no_proxy="127.0.0.1,localhost"
+      - NO_PROXY="127.0.0.1,localhost"
+    volumes:
+      - ..:/workspaces:cached
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
