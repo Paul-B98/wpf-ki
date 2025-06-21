@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  ai-lecture:  # TODO change this to your project name
-    container_name: ai-lecture  # TODO change this to your project name
+  ai-lecture:
+    container_name: ai-lecture
     init: true
     build:
       context: ..

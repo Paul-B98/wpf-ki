@@ -1,16 +1,16 @@
 [project]
-name = "project_name"  # TODO
-description = "Template for python project"  # TODO
-version = "0.0.1"
-license = "MIT"  # TODO
+name = "ai_lecture"
+description = "Lecture notes on ai and machine learning with python"
+version = "1.0.0"
+license = "MIT"
 authors = [
-    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }
 ]
 maintainers = [
-    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }
 ]
 readme = "README.md"
-keywords = ["Python Lib"]  # TODO
+keywords = ["Lecture", "Notes", "AI", "Machine Learning", "Python"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -19,11 +19,11 @@ classifiers = [
 requires-python = ">=3.13"
 
 [project.urls]
-homepage = "https://github.com/Paul-B98/python-project-template"  # TODO
-repository = "https://github.com/Paul-B98/python-project-template"  # TODO
-changelog = "https://github.com/Paul-B98/python-project-template/releases"  # TODO
-issues = "https://github.com/Paul-B98/python-project-template/issues"  # TODO
-documentation = "https://github.com/Paul-B98/python-project-template/wiki"  # TODO
+homepage = "https://github.com/Paul-B98/wpf-ki"
+repository = "https://github.com/Paul-B98/wpf-ki"
+changelog = "https://github.com/Paul-B98/wpf-ki/releases"
+issues = "https://github.com/Paul-B98/wpf-ki/issues"
+documentation = "https://github.com/Paul-B98/wpf-ki/wiki"
 
 [build-system]
 requires = ["hatchling"]
